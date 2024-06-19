@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_lithesheeli1_maven_project_1718807153329-pr-trigger-input-set
+  identifier: Build_lithesheeli1_maven_project_1718807153329prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: First_Project
+  pipeline:
+    identifier: Build_lithesheeli1_maven_project_1718807153329
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
